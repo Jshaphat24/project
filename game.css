@@ -1,0 +1,204 @@
+
+/* CHOICE CONTAINER */
+
+#question {
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    color: black;
+    font-weight: bold; /* Add this line to make the text bold */
+  }
+  
+  .choice-container {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    border: 1px solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-1.6px);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 24px 40px;
+    background-color: #56a5eb;
+    color: floralwhite;
+  }
+  
+  .choice-text {
+    padding: 24px;
+    width: 100%;
+  }
+  
+  .correct {
+    background-color: #28a745;
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+  }
+  
+  /* HUD (Heads Up Display) */
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+    color: black;
+  }
+  
+  /* PROGRESS BAR */
+  #progressBar {
+    width: 250px;
+    height: 58px;
+    border: 4px solid darkblue;
+    margin-top: 20px;
+  }
+  
+  #progressBarFull {
+    height: 50px;
+    background-color: darkblue;
+    width: 0%;
+  }
+  
+  /* TIMER CONTAINER */
+  #timerContainer {
+    width: 300px;
+    height: 25px;
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  #timer {
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+  }
+  
+  #textTimer {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* CHOICE CONTAINER */
+  
+  #question {
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    color: black;
+    font-weight: bold; /* Add this line to make the text bold */
+  }
+  
+  .choice-container {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    border: 1px solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-1.6px);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 24px 40px;
+    background-color: #56a5eb;
+    color: floralwhite;
+  }
+  
+  .choice-text {
+    padding: 24px;
+    width: 100%;
+  }
+  
+  .correct {
+    background-color: #28a745;
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+  }
+  
+  /* HUD (Heads Up Display) */
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+    color: black;
+  }
+  
+  /* PROGRESS BAR */
+  #progressBar {
+    width: 250px;
+    height: 58px;
+    border: 4px solid darkblue;
+    margin-top: 20px;
+  }
+  
+  #progressBarFull {
+    height: 50px;
+    background-color: darkblue;
+    width: 0%;
+  }
+  
+  /* TIMER CONTAINER */
+  #timerContainer {
+    width: 300px;
+    height: 25px;
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  #timer {
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+  }
+  
+  #textTimer {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #timerText {
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    right: 170px;
+  }
+  

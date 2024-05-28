@@ -1,0 +1,16 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 64px;
+  }
+  
+  .high-score {
+    font-size: 28px; /* Adjusted font size */
+    margin-bottom: 8px;
+    color: #333; /* Dark text color for improved visibility */
+  }
+  
+  .high-score:hover {
+    transform: scale(1.025);
+  }
+  
